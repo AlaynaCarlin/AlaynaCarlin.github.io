@@ -1,8 +1,31 @@
 body {
     background-color: burlywood;
 }
-/* 
-#navList{
+
+.headerDiv {
+    color: rgb (45,56,67);
+    margin: 300px;
+    text-align: center;
+}
+
+.headerDiv h1{
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.aboutMe {
+    color: rgb (45,56,67);
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* .navbar{
+    background-color: burlywood;
+} */
+
+/* #navList{
     background-color: burlywood;
 }
 
