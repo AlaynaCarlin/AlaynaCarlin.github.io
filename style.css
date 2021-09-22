@@ -2,22 +2,47 @@ body {
     background-color: burlywood;
 }
 
-.headerDiv {
-    color: rgb (45,56,67);
-    margin: 300px;
+.back-img{
+   background-image: url("./assets/willow2.jpg" );
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+#headerDiv {
+    position: relative;
+    color: black;
+    margin: 0px;
+    padding:350px;
     text-align: center;
 }
 
-.headerDiv h1{
+#alayna{
+    position: relative;
+    margin: 0;
     font-size: 80px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
-.aboutMe {
+.aboutMe h2 {
     color: rgb (45,56,67);
-    margin: 20px;
+    margin: 30px;
     text-align: center;
+}
+
+.aboutMe p {
+    color: rgb (45,56,67);
+    margin: 70px;
+    float: right;
+    width: 900px;
+    font-size: 25px;
+}
+
+.aboutMe img {
+    margin: 60px;
 }
 
 #myWork{
@@ -26,7 +51,9 @@ body {
 }
 
 .projects {
-    margin: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
     display: flex;
     flex-wrap:wrap;
 }
