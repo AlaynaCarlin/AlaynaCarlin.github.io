@@ -20,6 +20,22 @@ body {
     text-align: center;
 }
 
+#myWork{
+    text-align: center;
+    margin: 15px;
+}
+
+.projects {
+    margin: 15px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.projects a {
+    margin: 10px;
+}
+
+
 
 /* .navbar{
     background-color: burlywood;
