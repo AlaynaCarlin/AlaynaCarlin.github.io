@@ -2,27 +2,46 @@ body {
     background-color: burlywood;
 }
 
-body nav {
-    background-color: blueviolet;
+/* .navbar {
+    background-color: white !important;
+} */
+
+#id{
+    background-color: white;
 }
 
 .navbar .navbar-brand {
-    background-color: navy;
+    /* background-color: navy; */
+    position:fixed;
+    padding: 7px;
     font-size: 20px;
-}
-
-#navbar .navbar-nav {
-    background-color: pink;
+    top:10px;
+    background-color: white;
 }
 
 .navbar .nav-link{
-    background-color: pink; 
+    /* background-color: pink;  */
+    position: fixed;
     font-family:sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+#L1 {
+    left:150px;
+}
+
+#L2 {
+    left:300px;
+}
+
+#L3 {
+    left:450px;
 }
 
 .back-img{
    background-image: url("./assets/willow2.jpg" );
-    min-height: 700px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
