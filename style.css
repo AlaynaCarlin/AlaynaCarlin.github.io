@@ -2,6 +2,24 @@ body {
     background-color: burlywood;
 }
 
+body nav {
+    background-color: blueviolet;
+}
+
+.navbar .navbar-brand {
+    background-color: navy;
+    font-size: 20px;
+}
+
+#navbar .navbar-nav {
+    background-color: pink;
+}
+
+.navbar .nav-link{
+    background-color: pink; 
+    font-family:sans-serif;
+}
+
 .back-img{
    background-image: url("./assets/willow2.jpg" );
     min-height: 700px;
@@ -13,7 +31,7 @@ body {
 
 #headerDiv {
     position: relative;
-    color: black;
+    color: rgb(17, 14, 32);
     margin: 0px;
     padding:350px;
     text-align: center;
@@ -22,9 +40,14 @@ body {
 #alayna{
     position: relative;
     margin: 0;
-    font-size: 80px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+}
+
+.back-img h3 {
+    padding: 20px;
+    font-size: 45px;
 }
 
 .aboutMe h2 {
