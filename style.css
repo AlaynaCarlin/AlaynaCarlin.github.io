@@ -51,7 +51,7 @@ body {
 }
 
 #headerDiv {
-    position: relative;
+    /* position: relative; */
     color: rgb(17, 14, 36);
     margin: 0px;
     padding:350px;
