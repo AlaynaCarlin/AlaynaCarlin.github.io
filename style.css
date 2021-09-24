@@ -20,6 +20,10 @@ body {
     color: #000;
 }
 
+.navbar .navbar-brand:hover{
+    background-color: rgb(250, 230, 203);
+}
+
 .navbar .nav-link{
     color: black;
     position: fixed;
@@ -33,12 +37,24 @@ body {
     left:120px;
 }
 
+#L1:hover {
+    background-color: rgb(250, 230, 203);
+}
+
 #L2 {
     left:270px;
 }
 
+#L2:hover {
+    background-color:rgb(250, 230, 203);
+}
+
 #L3 {
     left:420px;
+}
+
+#L3:hover{
+    background-color: rgb(250, 230, 203);
 }
 
 .back-img{
