@@ -6,19 +6,19 @@ body {
     position: fixed;
     background-color: white ;
     width: 100vw;
-    height: 50px;
+    height: 4vw;
     
 }
-
-.navbar .navbar-brand {
-    /* background-color: navy; */
+/* 
+ .navbar .navbar-brand { 
+    background-color: navy;
     position:fixed;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0vw;
+    font-size: 1.5vw;
     top:0px;
     background-color: white;
     color: #000;
-}
+} */ 
 
 .navbar .navbar-brand:hover{
     background-color: rgb(250, 230, 203);
@@ -29,12 +29,27 @@ body {
     position: fixed;
     top:0px;
     font-family:sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
     background-color: white;
 }
 
+#L0 {
+    left: 2vw;
+    /* top: 0vw; */
+    font-size: 2vw;
+    padding: 0;
+}
+
+#L0:hover {
+    background-color: rgb(250, 230, 203);
+}
+
 #L1 {
-    left:120px;
+    left: 15vw;
+    /* top: 0vw; */
+    padding: 0;
+    font-size: 2vw;
+
 }
 
 #L1:hover {
@@ -42,7 +57,9 @@ body {
 }
 
 #L2 {
-    left:270px;
+    left: 30vw;
+    font-size: 2vw;
+    padding: 0;
 }
 
 #L2:hover {
@@ -50,7 +67,9 @@ body {
 }
 
 #L3 {
-    left:420px;
+    left:45vw;
+    font-size: 2vw;
+    padding: 0;
 }
 
 #L3:hover{
