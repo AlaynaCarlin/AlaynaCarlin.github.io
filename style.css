@@ -4,8 +4,8 @@ body {
 
 .navbar {
     position: fixed;
-    background-color: white !important;
-    width: 100%;
+    background-color: white ;
+    width: 100vw;
     height: 50px;
     
 }
@@ -59,8 +59,8 @@ body {
 
 .back-img{
     background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.089), rgb(253,255,255,0.198)), url("./assets/willow2.jpg" );
-    max-height: 100vh;
-    max-width: 100xw;
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -78,48 +78,56 @@ body {
 }
 
 #alayna{
-    position: relative;
+    /* position: relative; */
     color: rgb(9, 9, 41);
     /* background-color:burlywood; */
     margin: 0;
-    font-size: 90px;
+    font-size: 10vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 .back-img h3 {
-    padding: 20px;
-    font-size: 45px;
+    padding: 3vw;
+    font-size: 5vw;
 }
 
 .aboutMe{
     display: flex;
-    margin: 5vh;
+    margin: 2vw;
 }
 
-.aboutMe h2 {
+#about {
     color: rgb (45,56,67);
     text-align: center;
+    padding: 1vw;
 }
 
 .aboutMe p {
+    flex: 2;
     color: rgb (45,56,67);
-    padding: 2vh;
-    float: right;
-    width: 40vw;
+    padding: 0vh;
+    /* float: right; */
+    width: 50vw;
     font-size: 3vh;
 }
 
 .aboutMe a{
-    position: relative;
+    /* position: relative; */
     color: rgb (45,56,67);
     padding-left: 5vw;
 }
 
+#pic{
+    width:30%;
+}
+
 .aboutMe img {
-    float: left;
-    padding: 5vh;
-    width: 25vw;
+    /* float: left; */
+    flex: 1;
+    padding: 1vw;
+    max-width: 100%;
+    height: auto;
 }
 
 #myWork{
@@ -131,7 +139,7 @@ body {
 }
 
 .projects {
-    margin:100px;
+    margin:10vw;
     /* display: block; */
     align-items: center;
     display: flex;
@@ -140,21 +148,21 @@ body {
 }
 
 .projects a {
-    margin: 10px;
+    margin: 1vw;
 }
 
 /* ************************** */
 .penImg{
     background-image: url("./assets/Screenshot\ \(23\).png")  ;
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .text{
-    position: relative;
-    width: 300px;
-    height: 300px;
+    /* position: relative; */
+    width: 20vw;
+    height: 20vw;
     top: -24px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -163,95 +171,101 @@ body {
 }
 
 .penImg:hover .text{
+    position: relative;
     opacity: 0.85;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 /* *************************** */
 .statImg{
     background-image: url("./assets/Screenshot\ \(32\).png");
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .statImg:hover .text{
+    position: relative;
     opacity: 0.85;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 /* *************** */
 .Api1Img{
     background-image: url("./assets/Screenshot\ \(31\).png");
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .Api1Img:hover .text{
+    position: relative;
     opacity: 0.85;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 /* ****************** */
 .Api2Img{
-    background-image: url("");
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-image: url("./assets/Screenshot\ \(34\).png");
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .Api2Img:hover .text{
+    position: relative;
     opacity: 0.8;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 /* *********************** */
 .blueImg{
     background-image: url("./assets/badges-webdev_blue.png");
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .blueImg:hover .text{
+    position: relative;
     opacity: 0.85;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 /* ********************* */
 .redImg{
     background-image: url("./assets/badges-webdev_red.png");
-    background-size: 300px 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 20vw 20vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .redImg:hover .text{
+    position: relative;
     opacity: 0.6;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 5px;
 }
 
 #contactSection {
-    position: relative;
+    /* position: relative; */
     margin-top:30vh;
     text-align: center;
 }
 
 #contactForm{
-    position: relative;
+    /* position: relative; */
     margin-top: 10vh;
     margin-bottom: 20vh;
     margin-left:25vw;
