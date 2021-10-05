@@ -20,13 +20,11 @@
     <!-- * styling -->
     <!-- * accentuate texture -->
     <!-- ! in-vis at top -->
-    <nav class="navbar navbar-expand-lg " id="navB">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navB">
+        <div class="container-fluid">
         <a class="navbar-brand" href=" https://alaynacarlin.github.io/" id="navButtons">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+       
+        <div >
             <ul class="navbar-nav" id="navList">
                 <li class="nav-item active">
                     <a class="nav-link" id="L1" href="#about" id="navButtons">About Me <span
@@ -39,6 +37,7 @@
                     <a class="nav-link" id="L3" href="#contactSection" id="navButtons">Contact</a>
                 </li>
             </ul>
+        </div>
         </div>
     </nav>
 
@@ -98,45 +97,51 @@
     <!-- * hover- words -->
     <!-- ! fade in -->
     <!-- * open in new tab -->
-    <!-- ! fix links -->
+    <!-- * fix links -->
     <div class="projects">
         <div class="penImg">
-            <a href="https://codepen.io/AlaynaCarlin/pen/dyWBQpx" target="blank"></a>
+            <a href="https://codepen.io/AlaynaCarlin/pen/dyWBQpx" target="blank">
             <!-- <img class="penImg" src="./assets/Screenshot (23).png" width="200px"
                 height="200px"> -->
             <div class="text"><br><br><br>Robbie Robot <br> a CodePen css creature</div>
+            </a>
         </div>
 
         <div class="statImg">
-            <a href=" https://alaynacarlin.github.io/static-layout/" target="blank"></a>
+            <a href=" https://alaynacarlin.github.io/static-layout/" target="blank">
             <!-- <img src="./assets/Screenshot (32).png" width="200px"
                 height="200px"> -->
             <div class="text"><br><br>Harry Potter<br>A non-functional static web page </div>
+            </a>
         </div>
 
         <div class="Api1Img">
-            <a href="https://alaynacarlin.github.io/pokemon-API/" target="blank"></a>
+            <a href="https://alaynacarlin.github.io/pokemon-API/" target="blank">
             <!-- <img src="./assets/Screenshot (31).png" width="200px"
                 height="200px"> -->
             <div class="text"><br><br>Pokemon API<br></div>
+            </a>
         </div>
 
         <div class="Api2Img">
-            <a href="https://apiproject2-6f601.web.app/" target="blank"></a>
+            <a href="https://apiproject2-6f601.web.app/" target="blank">
             <!-- <img src="" width="200px" height="200px"> -->
             <div class="text">A Holiday API <br> </div>
+            </a>
         </div>
 
         <div class="blueImg">
-            <a href="" target="blank"></a>
+            <a href="" target="blank">
             <!-- <img src="./assets/badges-webdev_blue.png" width="200px"> -->
             <div class="text">??</div>
+            </a>
         </div>
 
         <div class="redImg">
-            <a href="" target="blank"></a>
+            <a href="" target="blank">
             <!-- <img src="./assets/badges-webdev_red.png" width="200px"> -->
             <div class="text">??</div>
+            </a>
         </div>
 
     </div>
@@ -149,26 +154,23 @@
         <section id="contactForm">
             <form action="https://formspree.io/f/mbjqblzr" method="POST">
                 <div class="row mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Your Name:</label>
                     <div class="col-sm-10">
-                        <input type="name" class="form-control">
+                        <input type="name" class="form-control" placeholder="Your Name">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Email:</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control">
+                        <input type="email" class="form-control" placeholder="Email Address">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Email Contents:</label>
                     <div class="col-sm-10">
                         <textarea name="message" class="form-control" id="exampleFormControlTextarea1"
-                            rows="5"></textarea>
+                            rows="5" placeholder="Your Message"></textarea>
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-success">Send</button>
+                    <button type="submit" class="btn btn-success" id="Cbtn">Send</button>
                 </div>
             </form>
         </section>
