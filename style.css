@@ -2,6 +2,10 @@ body {
     background-color: burlywood;
 }
 
+#navB {
+    z-index: 6;
+}
+
 .navbar {
     position: fixed;
     background-color: white ;
@@ -164,6 +168,7 @@ body {
 }
 
 .projects {
+    z-index: 5;
     margin:10vw;
     /* display: block; */
     align-items: center;
@@ -285,6 +290,7 @@ body {
 }
 
 #contactSection {
+    z-index: 5;
     /* position: relative; */
     margin-top:30vh;
     text-align: center;
